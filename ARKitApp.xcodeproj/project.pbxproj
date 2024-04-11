@@ -13,6 +13,8 @@
 		7F8E7FA22BC835F700527EC6 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7F8E7FA12BC835F700527EC6 /* Preview Assets.xcassets */; };
 		7F8E7FA92BC836CC00527EC6 /* CustomARView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F8E7FA82BC836CC00527EC6 /* CustomARView.swift */; };
 		7F8E7FAB2BC8389C00527EC6 /* ARViewRepresentable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F8E7FAA2BC8389C00527EC6 /* ARViewRepresentable.swift */; };
+		7F8E7FAD2BC84D1000527EC6 /* ARAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F8E7FAC2BC84D1000527EC6 /* ARAction.swift */; };
+		7F8E7FAF2BC84E2F00527EC6 /* ARManeger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F8E7FAE2BC84E2F00527EC6 /* ARManeger.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +25,8 @@
 		7F8E7FA12BC835F700527EC6 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		7F8E7FA82BC836CC00527EC6 /* CustomARView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomARView.swift; sourceTree = "<group>"; };
 		7F8E7FAA2BC8389C00527EC6 /* ARViewRepresentable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARViewRepresentable.swift; sourceTree = "<group>"; };
+		7F8E7FAC2BC84D1000527EC6 /* ARAction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARAction.swift; sourceTree = "<group>"; };
+		7F8E7FAE2BC84E2F00527EC6 /* ARManeger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARManeger.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +65,8 @@
 				7F8E7FA02BC835F700527EC6 /* Preview Content */,
 				7F8E7FA82BC836CC00527EC6 /* CustomARView.swift */,
 				7F8E7FAA2BC8389C00527EC6 /* ARViewRepresentable.swift */,
+				7F8E7FAC2BC84D1000527EC6 /* ARAction.swift */,
+				7F8E7FAE2BC84E2F00527EC6 /* ARManeger.swift */,
 			);
 			path = ARKitApp;
 			sourceTree = "<group>";
@@ -144,8 +150,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				7F8E7F9D2BC835F400527EC6 /* ContentView.swift in Sources */,
+				7F8E7FAD2BC84D1000527EC6 /* ARAction.swift in Sources */,
 				7F8E7FA92BC836CC00527EC6 /* CustomARView.swift in Sources */,
 				7F8E7FAB2BC8389C00527EC6 /* ARViewRepresentable.swift in Sources */,
+				7F8E7FAF2BC84E2F00527EC6 /* ARManeger.swift in Sources */,
 				7F8E7F9B2BC835F400527EC6 /* ARKitAppApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
